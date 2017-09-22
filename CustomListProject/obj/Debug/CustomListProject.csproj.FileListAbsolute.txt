@@ -1,0 +1,6 @@
+c:\users\raven\documents\visual studio 2015\Projects\CustomListClassProject\CustomListProject\obj\Debug\CustomListProject.csprojResolveAssemblyReference.cache
+c:\users\raven\documents\visual studio 2015\Projects\CustomListClassProject\CustomListProject\bin\Debug\CustomListProject.exe.config
+c:\users\raven\documents\visual studio 2015\Projects\CustomListClassProject\CustomListProject\bin\Debug\CustomListProject.exe
+c:\users\raven\documents\visual studio 2015\Projects\CustomListClassProject\CustomListProject\bin\Debug\CustomListProject.pdb
+c:\users\raven\documents\visual studio 2015\Projects\CustomListClassProject\CustomListProject\obj\Debug\CustomListProject.exe
+c:\users\raven\documents\visual studio 2015\Projects\CustomListClassProject\CustomListProject\obj\Debug\CustomListProject.pdb

@@ -1,0 +1,9 @@
+c:\users\raven\documents\visual studio 2015\Projects\CustomListClassProject\UnitTestProject1\obj\Debug\UnitTestProject1.csprojResolveAssemblyReference.cache
+c:\users\raven\documents\visual studio 2015\Projects\CustomListClassProject\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+c:\users\raven\documents\visual studio 2015\Projects\CustomListClassProject\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+c:\users\raven\documents\visual studio 2015\Projects\CustomListClassProject\UnitTestProject1\bin\Debug\CustomListProject.exe
+c:\users\raven\documents\visual studio 2015\Projects\CustomListClassProject\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+c:\users\raven\documents\visual studio 2015\Projects\CustomListClassProject\UnitTestProject1\bin\Debug\CustomListProject.pdb
+c:\users\raven\documents\visual studio 2015\Projects\CustomListClassProject\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+c:\users\raven\documents\visual studio 2015\Projects\CustomListClassProject\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+c:\users\raven\documents\visual studio 2015\Projects\CustomListClassProject\UnitTestProject1\obj\Debug\UnitTestProject1.pdb
