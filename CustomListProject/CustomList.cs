@@ -50,8 +50,7 @@ namespace CustomListProject
             {
                 newArray[i] = items[i];
             }
-
-            items = newArray;
+                items = newArray;
         }
 
         public bool Remove(T item)
@@ -110,16 +109,21 @@ namespace CustomListProject
             }
         }
 
-        public static CustomList<T> operator -(CustomList<T> list1, CustomList<T> list2)
+        public static CustomList<T> operator -(CustomList<T> List1, CustomList<T> List2)
         {
-            CustomList<T> newList = new CustomList<T>();
-
-
-
-            return newList;
+            CustomList<T> List3 = new CustomList<T>();
+            int i;
+            {
+                for (i = 0; i < List1.count; i++)
+                    if (List2[i].Equals(List1[i]))
+                        {
+                            List1.Remove(List2[i]);
+                        }
+            }
+            return List3;
         }
 
-        public CustomList<T> ZipTwoClassesTogether(CustomList<T> zipList1)
+        public CustomList<T> ZipTwoListsTogether(CustomList<T> zipList1)
         {           
             CustomList<T> newList = new CustomList<T>();
 
@@ -128,8 +132,7 @@ namespace CustomListProject
                 newList.Add(items[i]);
                 newList.Add(zipList1[i]);
             }           
-
-            return newList;
+                return newList;
         }
     }
 }
