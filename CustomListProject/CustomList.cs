@@ -114,11 +114,19 @@ namespace CustomListProject
             CustomList<T> List3 = new CustomList<T>();
             int i;
             {
-                for (i = 0; i < List1.count; i++)
-                    if (List2[i].Equals(List1[i]))
+                for (i = 0; i <= List1.count; i++)
+                    if (List2[0].Equals(List1[i]))
                         {
-                            List1.Remove(List2[i]);
+                            List1.Remove(List2[0]);
                         }
+            }
+            return List1;
+            {
+                for (i = 0; i <= List1.count; i++)
+                    if (List2[1].Equals(List1[i]))
+                    {
+                        List1.Remove(List2[1]);
+                    }
             }
             return List3;
         }

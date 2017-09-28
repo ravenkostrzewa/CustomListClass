@@ -294,22 +294,6 @@ namespace UnitTestProject1
             Assert.AreEqual(ExpectedResult, List3);
         }
 
-        [TestMethod]
-        public void SubractionOperatorForLetters()
-        {
-            //Arrange
-            CustomList<string> List1 = new CustomList<string>() { "S", "N", "O", "W", "M", "E", "N" };
-            CustomList<string> List2 = new CustomList<string>() { "S", "N", "W" };
-            CustomList<string> List3 = new CustomList<string>();
-            CustomList<string> ExpectedResult = new CustomList<string>() { "O", "M", "E", "N" };
-
-            //Act
-            List1 = List2 + List3;
-
-            //Assert
-            Assert.AreEqual(ExpectedResult, List3);
-        }
-
         public void CountPropertyImplementationWithIntegers()
         {
             //Arrange
