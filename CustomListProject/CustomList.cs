@@ -10,7 +10,12 @@ namespace CustomListProject
         T[] items;
         int capacity;
         int count;
-        public int Count { get; set; }
+        public int Count {
+            get
+            {
+                return count;
+            }
+        } 
         public T this[int index]
         {
             get
@@ -22,7 +27,7 @@ namespace CustomListProject
                 items[index] = value;
             }
         }
-
+       
         public CustomList()
         {
             count = 0;
@@ -116,11 +121,10 @@ namespace CustomListProject
             {
                 for (i = 0; i <= List1.count; i++)
                     if (List2[0].Equals(List1[i]))
-                        {
-                            List1.Remove(List2[0]);
-                        }
+                    {
+                        List1.Remove(List2[0]);
+                    }
             }
-            return List1;
             {
                 for (i = 0; i <= List1.count; i++)
                     if (List2[1].Equals(List1[i]))
